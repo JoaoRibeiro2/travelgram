@@ -3,7 +3,7 @@ footer{
     flex-direction: row;
     padding-block: 24px;
     padding-block: 4px;
-    font: var(--text-md);
+    font: 14px/150%;
     gap: 20px;
     padding-block: 24px;
 }
