@@ -8,13 +8,9 @@ nav{
 nav ul{
     display: flex;
     flex-direction: row;
-    list-style: none;
     align-items: center;
     padding-block: 8px;
     gap: 24px;
-}
-nav ul li:first-child img{
-    vertical-align: middle;
 }
 
 nav ul li:last-child img{

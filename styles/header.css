@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    font-size: 14px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1{
+    color: var(--text-primary);
+    font-size: 32px;
+    line-height: 105%;
+}
+#profile{
+    width: 592px;
+    height: 167px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-bottom: 4px;
+}
+#profile img{
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+#about p{
+    line-height: 170%;
+}
+#info img{
+    margin-right: 8px;
+}
+#info ul{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    line-height: 170%;
+}
