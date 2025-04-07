@@ -1,0 +1,12 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    padding-block: 24px;
+    padding-block: 4px;
+    font: var(--text-md);
+    gap: 20px;
+    padding-block: 24px;
+}
+footer span:nth-child(1){
+    margin-right: auto;
+}
