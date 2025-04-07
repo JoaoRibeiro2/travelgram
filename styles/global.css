@@ -4,13 +4,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins', sans-serif;
 }
 :root{
     --brand-color: #EF5F4C;
+    --shape-transparence: #FFFFFF91;
     --text-primary: #313131;
     --text-secondary: #6C6C6C;
     --surface-color: #F5F5F5;
+    --background-color: #FFFFFF;
+    --skeleton-color: #D9D9D9;
+
+
+
+    --font-family: "Poppins", sans-serif;
+    --text-lg: Bold 32px/125% var(--font-family);
+    --text: 16px/1.5 var(--font-family);
+    --text-md: 14px/170% var(--font-family);
+    --text-sm: 12px/170% var(--font-family);
 }
 body{
     background-color: var(--surface-color);
