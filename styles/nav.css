@@ -3,7 +3,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-block: 20px;
+    padding-block: 16px;
 }
 nav ul{
     display: flex;
@@ -19,3 +19,42 @@ nav ul li:last-child img{
     object-fit: cover;
     border-radius: 50%;
 }
+
+@media(width >= 80em){
+    nav{
+        padding-block: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-block: 8px;
+    gap: 24px;
+}
+
+nav ul li:last-child img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+} */

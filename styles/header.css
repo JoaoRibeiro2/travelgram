@@ -1,27 +1,28 @@
 header{
     display: flex;
-    font-size: 14px;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    
 }
 h1{
     font: var(--text-lg);
     color: var(--text-primary);
 }
+
 #profile{
-    width: 592px;
-    height: 167px;
+    width: 375px;
+
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 32px;
-    padding-bottom: 4px;
+    padding: 32px;
 }
 #profile img{
-    width: 176px;
-    height: 176px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
 }
+
 #about{
     max-width: 384px;
     display: flex;
@@ -33,15 +34,32 @@ h1{
     font: var(--text-md);
 }
 
+
 #info ul{
     width: 280px;
     display: flex;
     flex-direction: column;
     gap: 16px;
     font: var(--text-md);
+    padding-inline: 32px;
 }
 #info li{
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+
+
+@media(width >= 80em){
+    header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    #profile{
+        width: 100%;
+        height: 167px;
+        flex-direction: row;
+    }
 }
